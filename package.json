@@ -1,0 +1,49 @@
+{
+  "name": "angular-login-webpack",
+  "version": "1.0.0",
+  "description": "Basic login page using Angular built with webpack",
+  "scripts": {
+    "start": "gulp",
+    "test": "gulp test"
+  },
+  "author": "Edgar Arguelles",
+  "license": "ISC",
+  "keywords": [
+    "drakov (API Blueprint)",
+    "angular",
+    "bootstrap",
+    "webpack",
+    "eslint",
+    "karma",
+    "jasmine",
+    "less",
+    "gulp"
+  ],
+  "devDependencies": {
+    "css-loader": "^0.25.0",
+    "drakov": "^1.0.1",
+    "eslint": "^3.9.1",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-angular": "^1.4.1",
+    "file-loader": "^0.9.0",
+    "gulp": "^3.9.1",
+    "gulp-open": "^2.0.0",
+    "istanbul-instrumenter-loader": "^1.0.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-spec-reporter": "0.0.26",
+    "karma-webpack": "^1.8.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "ng-annotate-loader": "^0.2.0",
+    "ng-cache-loader": "0.0.21",
+    "run-sequence": "^1.2.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
