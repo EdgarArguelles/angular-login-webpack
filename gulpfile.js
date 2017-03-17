@@ -32,9 +32,10 @@ gulp.task('webpack', function (callback) {
 // Webpack-dev-server
 gulp.task('dev', function (callback) {
   var webpackConfig = require('./webpack.config');
+  webpackConfig.entry.app.unshift('webpack-dev-server/client?http://localhost:8080/', 'webpack/hot/dev-server');
   webpackConfig.output.path = '/';
   var compiler = webpack(webpackConfig);
-  new WebpackDevServer(compiler).listen(8080, 'localhost', function (err) {
+  new WebpackDevServer(compiler, {hot: true}).listen(8080, 'localhost', function (err) {
     if (err) throw new gutil.PluginError('webpack-dev-server', err);
     gutil.log('[webpack-dev-server]', 'http://localhost:8080/webpack-dev-server/index.html');
     callback();

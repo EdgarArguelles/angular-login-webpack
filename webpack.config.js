@@ -1,8 +1,9 @@
+'use strict';
 var webpack = require('webpack');
 
 module.exports = {
   entry: {
-    js: './src/app/app.js'
+    app: ['./src/app/app.js']
   },
   output: {
     path: './dist',
@@ -12,7 +13,9 @@ module.exports = {
   resolve: {
     modules: ['web_modules', 'node_modules', 'bower_components']
   },
-  plugins: [],
+  plugins: [
+    new webpack.HotModuleReplacementPlugin()
+  ],
   module: {
     rules: [
       // pre
