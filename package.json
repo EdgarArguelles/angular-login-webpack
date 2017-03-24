@@ -20,11 +20,11 @@
     "gulp"
   ],
   "devDependencies": {
-    "css-loader": "0.26.4",
-    "drakov": "1.0.2",
-    "eslint": "3.17.1",
-    "eslint-loader": "1.6.3",
-    "eslint-plugin-angular": "1.6.2",
+    "css-loader": "0.27.3",
+    "drakov": "1.0.3",
+    "eslint": "3.18.0",
+    "eslint-loader": "1.7.0",
+    "eslint-plugin-angular": "2.2.0",
     "file-loader": "0.10.1",
     "gulp": "3.9.1",
     "gulp-open": "2.0.0",
@@ -33,17 +33,17 @@
     "karma": "1.5.0",
     "karma-coverage": "1.1.1",
     "karma-jasmine": "1.1.0",
-    "karma-phantomjs-launcher": "1.0.2",
+    "karma-phantomjs-launcher": "1.0.4",
     "karma-spec-reporter": "0.0.30",
-    "karma-webpack": "2.0.2",
+    "karma-webpack": "2.0.3",
     "less": "2.7.2",
-    "less-loader": "3.0.0",
+    "less-loader": "4.0.2",
     "ng-annotate-loader": "0.2.0",
     "ng-cache-loader": "0.0.23",
     "run-sequence": "1.2.2",
-    "style-loader": "0.13.2",
+    "style-loader": "0.16.0",
     "url-loader": "0.5.8",
-    "webpack": "2.2.1",
-    "webpack-dev-server": "2.4.1"
+    "webpack": "2.3.1",
+    "webpack-dev-server": "2.4.2"
   }
 }

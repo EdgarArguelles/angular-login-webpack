@@ -1,17 +1,18 @@
 'use strict';
-var webpack = require('webpack');
+const webpack = require('webpack'),
+  path = require('path');
 
 module.exports = {
   entry: {
     app: ['./src/app/app.js']
   },
   output: {
-    path: './dist',
+    path: path.resolve('./dist'),
     filename: 'bundle.js'
   },
   devtool: 'inline-source-map',
   resolve: {
-    modules: ['web_modules', 'node_modules', 'bower_components']
+    modules: ['node_modules', 'bower_components']
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin()
